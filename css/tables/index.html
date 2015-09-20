@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+  thead th, tfoot td {
+    padding: 20px 10px;
+    color: #fff;
+    font-size: 26px;
+    background-color: #222;
+    font-weight: normal;
+    border-right: 1px dotted #666;
+    border-top: 3px dotted #666;
+    box-shadow: 0px -1px 4px #000;
+    text-shadow: 1px 1px 1px #000;
+  }
+    tbody th {
+      text-align: right;
+      padding: 10px;
+      color: #333;
+      text-shadow: 1px 1px 1px #ccc;
+      background-color: #f9f9f9;
+    }
+    tbody td {
+      padding: 10px;
+      background-color: #f0f0f0;
+      border-right: 1px dotted #999;
+      text-shadow: 1px 1px 1px #fff;
+      text-transform: uppercase;
+      color: #333;
+    }
+    thead :first-child, 
+    tbody :nth-last-child(1) {
+      border: none;
+    }
+    thead th:empty {
+      background: transparent;
+      box-shadow: none;
+    }
+  </style>
+</head>
+  <body>
+  <table>
+    <thead>
+    <tr>
+      <th></th>
+      <th scope="col" abbr="Starter">Starter</th>
+      <th scope="col" abbr="Medium">Medium</th>
+      <th scope="col" abbr="Business">Business</th>
+      <th scope="col" abbr="Premium">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th scope="row">Storage Space</th>
+      <td>512 MB</td>
+      <td>1 GB</td>
+      <td>2 GB</td>
+      <td>4 GB</td>
+      </tr>
+      <tr>
+      <th scope="row">Bandwith</th>
+        <td>50 GB</td>
+        <td>100 GB</td>
+        <td>150 GB</td>
+        <td>Unlimited</td>
+      </tr>
+      <tr>
+      <th scope="row">MySQL Databases</th>
+        <td>Unlimited</td>
+        <td>Unlimited</td>
+        <td>Unlimited</td>
+        <td>Unlimited</td>
+      </tr>
+      <tr>
+      <th scope="row">Setup</th>
+        <td>&pound; 19.90</td>
+        <td>&pound; 12.90</td>
+        <td>free</td>
+        <td>free</td>
+      </tr>
+      <tr>
+      <th scope="row">PHP 5</th>
+        <td><span class="check"></span></td>
+        <td><span class="check"></span></td>
+        <td><span class="check"></span></td>
+        <td><span class="check"></span></td>
+      </tr>
+      <tr>
+      <th scope="row">Ruby on Rails</th>
+        <td><span class="check"></span></td>
+        <td><span class="check"></span></td>
+        <td><span class="check"></span></td>
+        <td><span class="check"></span></td>
+      </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+    <th scope="row">Price per month</th>
+      <td>&pound 3.00</td>
+      <td>&pound 7.00</td>
+      <td>&pound 10.00</td>
+      <td>&pound 15.00</td>
+    </tr>
+    </tfoot>
+    </table>
+  </body>
+</html>
